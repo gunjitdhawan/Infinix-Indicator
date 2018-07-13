@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 26
+
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+publish {
+    userOrg = 'dgunjit14'
+    groupId = 'com.grappes'
+    artifactId = 'Infinix-Indicator'
+    publishVersion = '1.0.2'
+    repoName = "Infinix-Indicator"
+    desc = 'Infinite indicator library that can be used with view pager (Similar to one used in Gradeup School and Facebook App)'
+    website = 'https://github.com/novoda/bintray-release'
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.8.1'
+    }
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:26.0.2"
+    compile "com.android.support:support-fragment:26.0.2"
+    compile "com.android.support:support-core-ui:26.0.2"
+
+}
+

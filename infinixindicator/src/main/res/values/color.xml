@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="infinix_background">#f2f2f2</color>
+    <color name="infinix_dot_color">#666666</color>
+    <color name="infinix_dot_light_color">#d7d7d7</color>
+
+    <color name="sample_bg">#333333</color>
+    <color name="sample_dot_light">#999999</color>
+    <color name="sample_dot_dark">#ffffff</color>
+</resources>
