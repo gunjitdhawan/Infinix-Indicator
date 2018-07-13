@@ -1,5 +1,7 @@
 # Infinix-Indicator
+
 Android view pager indicator library for infinite pages (>10) as used in Gradeup School and Facebook App
+
 ![](https://gs-post-images.grdp.co/2018/7/20180713141153-7c011ad592-img1531480513566-29-rs.gif)
 
 # Gradle Dependency
@@ -55,7 +57,7 @@ Now link InfinixIndicator to your view pager
 ViewPager viewPager = findViewById(R.id.view_pager);
 InfiniXIndicator infiniXIndicator = findViewById(R.id.infinix_indicator);
 
-InfinixAdapter adapter = new InfinixAdapter(getSupportFragmentManager());
+YourAdapter adapter = new YourAdapter(getSupportFragmentManager());
 viewPager.setAdapter(adapter);
 infiniXIndicator.setViewPager(viewPager);
 ```
