@@ -2,6 +2,9 @@
 
 Android view pager indicator library for infinite pages (>10) as used in Gradeup School and Facebook App
 
+![](https://gs-post-images.grdp.co/2018/7/20180713144042-7c011ad592-img1531482075155-55-rs.gif)
+
+
 ![](https://gs-post-images.grdp.co/2018/7/20180713141153-7c011ad592-img1531480513566-29-rs.gif)
 
 # Gradle Dependency
