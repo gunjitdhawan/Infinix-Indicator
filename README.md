@@ -9,6 +9,12 @@ Android view pager indicator library for infinite pages (>10) as used in Gradeup
 # Gradle Dependency
 Add this line to your app level build.gradle file
 
+```
+maven {
+        url  "https://dl.bintray.com/dgunjit14/Infinix-Indicator" 
+}
+```
+
 ```compile 'com.grappes:Infinix-Indicator:1.0.2'```
 
 
